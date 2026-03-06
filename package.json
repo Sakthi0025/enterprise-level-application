@@ -9,11 +9,11 @@
   },
   "lint-staged": {
     "*.{ts,tsx,js,jsx}": [
-      "eslint --fix",
-      "prettier --write"
+      "eslint",
+      "prettier --check"
     ],
     "*.{json,md,yml,yaml}": [
-      "prettier --write"
+      "prettier --check"
     ]
   },
   "keywords": [],
